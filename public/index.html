@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Art Image Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Minecraft Art Image Converter</h1>
+    <div id="imageCounter" style="position: absolute; top: 10px; right: 10px; font-weight: bold;"></div>
+    <input type="file" id="imageInput" accept="image/*">
+    <div>
+        <button id="sketchButton">Sketch</button>
+        <button id="hdButton">HD</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div id="gridDimensions"></div>
+
+    <div id="clickInstruction" style="margin-top: 20px; font-weight: bold;">
+        After generating an image, click on an individual block to get build details.
+    </div>
+
+    <p id="refreshNotice">If you run into image generation issues, please ensure the window is fullscreened and refresh the page before regenerating.</p>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

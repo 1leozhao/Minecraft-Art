@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+canvas {
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 80vw; /* Make the canvas responsive and larger */
+    height: 80vh;
+}
+
+#refreshNotice {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
